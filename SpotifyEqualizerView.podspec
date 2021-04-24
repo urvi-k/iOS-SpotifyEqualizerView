@@ -17,5 +17,6 @@ This CocoaPods library make easy to create equalizerView in your project.
 
   spec.source        = { :git => "https://github.com/urvi-k/iOS-SpotifyEqualizerView.git", :tag => "#{spec.version}" }
   spec.source_files  = "iOS-SpotifyEqualizerView/**/*.{h,m,swift}"
+    spec.requires_arc = true
 
 end
