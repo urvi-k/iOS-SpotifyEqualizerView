@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		414E1C90287AD7EA00912ABE /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E1C8F287AD7EA00912ABE /* Slider.swift */; };
+		414E1C92287AD98100912ABE /* SliderNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E1C91287AD98100912ABE /* SliderNew.swift */; };
 		7A885ED3256FD09C0009BD32 /* iOS_SpotifyEqualizerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A885EC9256FD09C0009BD32 /* iOS_SpotifyEqualizerView.framework */; };
 		7A885ED8256FD09C0009BD32 /* iOS_SpotifyEqualizerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A885ED7256FD09C0009BD32 /* iOS_SpotifyEqualizerViewTests.swift */; };
 		7A885EDA256FD09C0009BD32 /* iOS_SpotifyEqualizerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A885ECC256FD09C0009BD32 /* iOS_SpotifyEqualizerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		414E1C8F287AD7EA00912ABE /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		414E1C91287AD98100912ABE /* SliderNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderNew.swift; sourceTree = "<group>"; };
 		7A885EC9256FD09C0009BD32 /* iOS_SpotifyEqualizerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_SpotifyEqualizerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A885ECC256FD09C0009BD32 /* iOS_SpotifyEqualizerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_SpotifyEqualizerView.h; sourceTree = "<group>"; };
 		7A885ECD256FD09C0009BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				7A885ECC256FD09C0009BD32 /* iOS_SpotifyEqualizerView.h */,
 				7A885ECD256FD09C0009BD32 /* Info.plist */,
+				414E1C91287AD98100912ABE /* SliderNew.swift */,
 			);
 			path = "iOS-SpotifyEqualizerView";
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				TargetAttributes = {
 					7A885EC8256FD09C0009BD32 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1310;
 					};
 					7A885ED1256FD09C0009BD32 = {
 						CreatedOnToolsVersion = 12.0;
@@ -391,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414E1C92287AD98100912ABE /* SliderNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +599,7 @@
 		7A885EDE256FD09C0009BD32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -610,6 +616,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "urvi.iOS-SpotifyEqualizerView";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -618,6 +625,7 @@
 		7A885EDF256FD09C0009BD32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -642,6 +650,7 @@
 		7A885EE1256FD09C0009BD32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-SpotifyEqualizerViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -659,6 +668,7 @@
 		7A885EE2256FD09C0009BD32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-SpotifyEqualizerViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
