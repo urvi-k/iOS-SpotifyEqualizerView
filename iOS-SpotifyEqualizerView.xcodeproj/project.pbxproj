@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414E1C90287AD7EA00912ABE /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E1C8F287AD7EA00912ABE /* Slider.swift */; };
 		7A885ED3256FD09C0009BD32 /* iOS_SpotifyEqualizerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A885EC9256FD09C0009BD32 /* iOS_SpotifyEqualizerView.framework */; };
 		7A885ED8256FD09C0009BD32 /* iOS_SpotifyEqualizerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A885ED7256FD09C0009BD32 /* iOS_SpotifyEqualizerViewTests.swift */; };
 		7A885EDA256FD09C0009BD32 /* iOS_SpotifyEqualizerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A885ECC256FD09C0009BD32 /* iOS_SpotifyEqualizerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		414E1C8F287AD7EA00912ABE /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		7A885EC9256FD09C0009BD32 /* iOS_SpotifyEqualizerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_SpotifyEqualizerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A885ECC256FD09C0009BD32 /* iOS_SpotifyEqualizerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_SpotifyEqualizerView.h; sourceTree = "<group>"; };
 		7A885ECD256FD09C0009BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		414E1C8E287AD7BB00912ABE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				414E1C8F287AD7EA00912ABE /* Slider.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7A885EBF256FD09C0009BD32 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +162,7 @@
 		7A885EEA256FD14B0009BD32 /* SpotifyEqualizerView */ = {
 			isa = PBXGroup;
 			children = (
+				414E1C8E287AD7BB00912ABE /* Classes */,
 				7A885EEB256FD14B0009BD32 /* AppDelegate.swift */,
 				7A885EED256FD14B0009BD32 /* SceneDelegate.swift */,
 				7A885EEF256FD14B0009BD32 /* ViewController.swift */,
@@ -397,6 +408,7 @@
 			files = (
 				7A885EF0256FD14B0009BD32 /* ViewController.swift in Sources */,
 				7A885EEC256FD14B0009BD32 /* AppDelegate.swift in Sources */,
+				414E1C90287AD7EA00912ABE /* Slider.swift in Sources */,
 				7A885EEE256FD14B0009BD32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
