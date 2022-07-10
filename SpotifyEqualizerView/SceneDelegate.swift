@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  SpotifyEqualizerViewExamples
+//  SpotifyEqualizerView
 //
 //  Created by Urvi Koladiya on 26/11/20.
 //

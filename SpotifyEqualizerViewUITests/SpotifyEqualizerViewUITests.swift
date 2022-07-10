@@ -1,13 +1,13 @@
 //
-//  SpotifyEqualizerViewExamplesUITests.swift
-//  SpotifyEqualizerViewExamplesUITests
+//  SpotifyEqualizerViewUITests.swift
+//  SpotifyEqualizerViewUITests
 //
 //  Created by Urvi Koladiya on 26/11/20.
 //
 
 import XCTest
 
-class SpotifyEqualizerViewExamplesUITests: XCTestCase {
+class SpotifyEqualizerViewUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

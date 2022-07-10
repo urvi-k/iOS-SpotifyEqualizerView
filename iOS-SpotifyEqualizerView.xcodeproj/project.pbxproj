@@ -14,11 +14,10 @@
 		7A885EEE256FD14B0009BD32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A885EED256FD14B0009BD32 /* SceneDelegate.swift */; };
 		7A885EF0256FD14B0009BD32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A885EEF256FD14B0009BD32 /* ViewController.swift */; };
 		7A885EF3256FD14B0009BD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A885EF1256FD14B0009BD32 /* Main.storyboard */; };
-		7A885EF6256FD14B0009BD32 /* SpotifyEqualizerViewExamples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A885EF4256FD14B0009BD32 /* SpotifyEqualizerViewExamples.xcdatamodeld */; };
 		7A885EF8256FD14D0009BD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A885EF7256FD14D0009BD32 /* Assets.xcassets */; };
 		7A885EFB256FD14D0009BD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A885EF9256FD14D0009BD32 /* LaunchScreen.storyboard */; };
-		7A885F06256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A885F05256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests.swift */; };
-		7A885F11256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A885F10256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests.swift */; };
+		7A885F06256FD14D0009BD32 /* SpotifyEqualizerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A885F05256FD14D0009BD32 /* SpotifyEqualizerViewTests.swift */; };
+		7A885F11256FD14D0009BD32 /* SpotifyEqualizerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A885F10256FD14D0009BD32 /* SpotifyEqualizerViewUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,20 +51,19 @@
 		7A885ED2256FD09C0009BD32 /* iOS-SpotifyEqualizerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-SpotifyEqualizerViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A885ED7256FD09C0009BD32 /* iOS_SpotifyEqualizerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SpotifyEqualizerViewTests.swift; sourceTree = "<group>"; };
 		7A885ED9256FD09C0009BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A885EE9256FD14B0009BD32 /* SpotifyEqualizerViewExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyEqualizerViewExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A885EE9256FD14B0009BD32 /* SpotifyEqualizerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyEqualizerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A885EEB256FD14B0009BD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A885EED256FD14B0009BD32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A885EEF256FD14B0009BD32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A885EF2256FD14B0009BD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A885EF5256FD14B0009BD32 /* SpotifyEqualizerViewExamples.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpotifyEqualizerViewExamples.xcdatamodel; sourceTree = "<group>"; };
 		7A885EF7256FD14D0009BD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A885EFA256FD14D0009BD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A885EFC256FD14D0009BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A885F01256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyEqualizerViewExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A885F05256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyEqualizerViewExamplesTests.swift; sourceTree = "<group>"; };
+		7A885F01256FD14D0009BD32 /* SpotifyEqualizerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyEqualizerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A885F05256FD14D0009BD32 /* SpotifyEqualizerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyEqualizerViewTests.swift; sourceTree = "<group>"; };
 		7A885F07256FD14D0009BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A885F0C256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyEqualizerViewExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A885F10256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyEqualizerViewExamplesUITests.swift; sourceTree = "<group>"; };
+		7A885F0C256FD14D0009BD32 /* SpotifyEqualizerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyEqualizerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A885F10256FD14D0009BD32 /* SpotifyEqualizerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyEqualizerViewUITests.swift; sourceTree = "<group>"; };
 		7A885F12256FD14D0009BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,9 +112,9 @@
 			children = (
 				7A885ECB256FD09C0009BD32 /* iOS-SpotifyEqualizerView */,
 				7A885ED6256FD09C0009BD32 /* iOS-SpotifyEqualizerViewTests */,
-				7A885EEA256FD14B0009BD32 /* SpotifyEqualizerViewExamples */,
-				7A885F04256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests */,
-				7A885F0F256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests */,
+				7A885EEA256FD14B0009BD32 /* SpotifyEqualizerView */,
+				7A885F04256FD14D0009BD32 /* SpotifyEqualizerViewTests */,
+				7A885F0F256FD14D0009BD32 /* SpotifyEqualizerViewUITests */,
 				7A885ECA256FD09C0009BD32 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,9 +124,9 @@
 			children = (
 				7A885EC9256FD09C0009BD32 /* iOS_SpotifyEqualizerView.framework */,
 				7A885ED2256FD09C0009BD32 /* iOS-SpotifyEqualizerViewTests.xctest */,
-				7A885EE9256FD14B0009BD32 /* SpotifyEqualizerViewExamples.app */,
-				7A885F01256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests.xctest */,
-				7A885F0C256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests.xctest */,
+				7A885EE9256FD14B0009BD32 /* SpotifyEqualizerView.app */,
+				7A885F01256FD14D0009BD32 /* SpotifyEqualizerViewTests.xctest */,
+				7A885F0C256FD14D0009BD32 /* SpotifyEqualizerViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +149,7 @@
 			path = "iOS-SpotifyEqualizerViewTests";
 			sourceTree = "<group>";
 		};
-		7A885EEA256FD14B0009BD32 /* SpotifyEqualizerViewExamples */ = {
+		7A885EEA256FD14B0009BD32 /* SpotifyEqualizerView */ = {
 			isa = PBXGroup;
 			children = (
 				7A885EEB256FD14B0009BD32 /* AppDelegate.swift */,
@@ -161,27 +159,26 @@
 				7A885EF7256FD14D0009BD32 /* Assets.xcassets */,
 				7A885EF9256FD14D0009BD32 /* LaunchScreen.storyboard */,
 				7A885EFC256FD14D0009BD32 /* Info.plist */,
-				7A885EF4256FD14B0009BD32 /* SpotifyEqualizerViewExamples.xcdatamodeld */,
 			);
-			path = SpotifyEqualizerViewExamples;
+			path = SpotifyEqualizerView;
 			sourceTree = "<group>";
 		};
-		7A885F04256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests */ = {
+		7A885F04256FD14D0009BD32 /* SpotifyEqualizerViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				7A885F05256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests.swift */,
+				7A885F05256FD14D0009BD32 /* SpotifyEqualizerViewTests.swift */,
 				7A885F07256FD14D0009BD32 /* Info.plist */,
 			);
-			path = SpotifyEqualizerViewExamplesTests;
+			path = SpotifyEqualizerViewTests;
 			sourceTree = "<group>";
 		};
-		7A885F0F256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests */ = {
+		7A885F0F256FD14D0009BD32 /* SpotifyEqualizerViewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7A885F10256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests.swift */,
+				7A885F10256FD14D0009BD32 /* SpotifyEqualizerViewUITests.swift */,
 				7A885F12256FD14D0009BD32 /* Info.plist */,
 			);
-			path = SpotifyEqualizerViewExamplesUITests;
+			path = SpotifyEqualizerViewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +231,9 @@
 			productReference = 7A885ED2256FD09C0009BD32 /* iOS-SpotifyEqualizerViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7A885EE8256FD14B0009BD32 /* SpotifyEqualizerViewExamples */ = {
+		7A885EE8256FD14B0009BD32 /* SpotifyEqualizerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A885F13256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewExamples" */;
+			buildConfigurationList = 7A885F13256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerView" */;
 			buildPhases = (
 				7A885EE5256FD14B0009BD32 /* Sources */,
 				7A885EE6256FD14B0009BD32 /* Frameworks */,
@@ -246,14 +243,14 @@
 			);
 			dependencies = (
 			);
-			name = SpotifyEqualizerViewExamples;
+			name = SpotifyEqualizerView;
 			productName = SpotifyEqualizerViewExamples;
-			productReference = 7A885EE9256FD14B0009BD32 /* SpotifyEqualizerViewExamples.app */;
+			productReference = 7A885EE9256FD14B0009BD32 /* SpotifyEqualizerView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7A885F00256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests */ = {
+		7A885F00256FD14D0009BD32 /* SpotifyEqualizerViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A885F16256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewExamplesTests" */;
+			buildConfigurationList = 7A885F16256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewTests" */;
 			buildPhases = (
 				7A885EFD256FD14D0009BD32 /* Sources */,
 				7A885EFE256FD14D0009BD32 /* Frameworks */,
@@ -264,14 +261,14 @@
 			dependencies = (
 				7A885F03256FD14D0009BD32 /* PBXTargetDependency */,
 			);
-			name = SpotifyEqualizerViewExamplesTests;
+			name = SpotifyEqualizerViewTests;
 			productName = SpotifyEqualizerViewExamplesTests;
-			productReference = 7A885F01256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests.xctest */;
+			productReference = 7A885F01256FD14D0009BD32 /* SpotifyEqualizerViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7A885F0B256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests */ = {
+		7A885F0B256FD14D0009BD32 /* SpotifyEqualizerViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A885F19256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewExamplesUITests" */;
+			buildConfigurationList = 7A885F19256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewUITests" */;
 			buildPhases = (
 				7A885F08256FD14D0009BD32 /* Sources */,
 				7A885F09256FD14D0009BD32 /* Frameworks */,
@@ -282,9 +279,9 @@
 			dependencies = (
 				7A885F0E256FD14D0009BD32 /* PBXTargetDependency */,
 			);
-			name = SpotifyEqualizerViewExamplesUITests;
+			name = SpotifyEqualizerViewUITests;
 			productName = SpotifyEqualizerViewExamplesUITests;
-			productReference = 7A885F0C256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests.xctest */;
+			productReference = 7A885F0C256FD14D0009BD32 /* SpotifyEqualizerViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -330,9 +327,9 @@
 			targets = (
 				7A885EC8256FD09C0009BD32 /* iOS-SpotifyEqualizerView */,
 				7A885ED1256FD09C0009BD32 /* iOS-SpotifyEqualizerViewTests */,
-				7A885EE8256FD14B0009BD32 /* SpotifyEqualizerViewExamples */,
-				7A885F00256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests */,
-				7A885F0B256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests */,
+				7A885EE8256FD14B0009BD32 /* SpotifyEqualizerView */,
+				7A885F00256FD14D0009BD32 /* SpotifyEqualizerViewTests */,
+				7A885F0B256FD14D0009BD32 /* SpotifyEqualizerViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -401,7 +398,6 @@
 				7A885EF0256FD14B0009BD32 /* ViewController.swift in Sources */,
 				7A885EEC256FD14B0009BD32 /* AppDelegate.swift in Sources */,
 				7A885EEE256FD14B0009BD32 /* SceneDelegate.swift in Sources */,
-				7A885EF6256FD14B0009BD32 /* SpotifyEqualizerViewExamples.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A885F06256FD14D0009BD32 /* SpotifyEqualizerViewExamplesTests.swift in Sources */,
+				7A885F06256FD14D0009BD32 /* SpotifyEqualizerViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A885F11256FD14D0009BD32 /* SpotifyEqualizerViewExamplesUITests.swift in Sources */,
+				7A885F11256FD14D0009BD32 /* SpotifyEqualizerViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,12 +427,12 @@
 		};
 		7A885F03256FD14D0009BD32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A885EE8256FD14B0009BD32 /* SpotifyEqualizerViewExamples */;
+			target = 7A885EE8256FD14B0009BD32 /* SpotifyEqualizerView */;
 			targetProxy = 7A885F02256FD14D0009BD32 /* PBXContainerItemProxy */;
 		};
 		7A885F0E256FD14D0009BD32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A885EE8256FD14B0009BD32 /* SpotifyEqualizerViewExamples */;
+			target = 7A885EE8256FD14B0009BD32 /* SpotifyEqualizerView */;
 			targetProxy = 7A885F0D256FD14D0009BD32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -671,12 +667,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SpotifyEqualizerViewExamples/Info.plist;
+				INFOPLIST_FILE = SpotifyEqualizerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = urvi.SpotifyEqualizerViewExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = urvi.SpotifyEqualizerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -689,12 +685,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SpotifyEqualizerViewExamples/Info.plist;
+				INFOPLIST_FILE = SpotifyEqualizerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = urvi.SpotifyEqualizerViewExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = urvi.SpotifyEqualizerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -811,7 +807,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A885F13256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewExamples" */ = {
+		7A885F13256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A885F14256FD14D0009BD32 /* Debug */,
@@ -820,7 +816,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A885F16256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewExamplesTests" */ = {
+		7A885F16256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A885F17256FD14D0009BD32 /* Debug */,
@@ -829,7 +825,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A885F19256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewExamplesUITests" */ = {
+		7A885F19256FD14D0009BD32 /* Build configuration list for PBXNativeTarget "SpotifyEqualizerViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A885F1A256FD14D0009BD32 /* Debug */,
@@ -839,19 +835,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7A885EF4256FD14B0009BD32 /* SpotifyEqualizerViewExamples.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7A885EF5256FD14B0009BD32 /* SpotifyEqualizerViewExamples.xcdatamodel */,
-			);
-			currentVersion = 7A885EF5256FD14B0009BD32 /* SpotifyEqualizerViewExamples.xcdatamodel */;
-			path = SpotifyEqualizerViewExamples.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7A885EC0256FD09C0009BD32 /* Project object */;
 }
